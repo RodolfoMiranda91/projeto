@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.tituloRodape{
+    color: #4d4d4d; 
+    text-align: center;
+}
+
+.cabecalho{
+    background-color:#ffcc00;
+}
+
+.rodape{
+    background-color:#ffcc00;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+table{
+    color: #4d4d4d;
+    text-align: center;
+    margin: 0;
+    font-size: larger;
+}
+
+tr{
+    height: 50px;
+}
+
+td{
+    width: 150px;    
+}
+
+a:-webkit-any-link{
+    text-decoration: none;
+    color: inherit;
+}
+
+
+td:hover{
+    color: #ffffff;
+    background-color: #4d4d4d;
+    border-radius: 5px;
+}
+
+/* css cabecalho com flex */
+
+.container_cabecalho{
+display: flex;
+flex-direction: row ;
+background-color: #ffffff;
+}
+
+
+.divclass1, .divclass2, .divclass3 {
+margin: 5px;
+padding: 5px;
+}
+
+.divclass2{
+display: flex;
+justify-content: center;    
+flex:1;
+background-color: #ffcc00;
+}
+
+.divclass3{
+    display: flex;
+    justify-content: center;    
+    flex:5;
+    background-color: #ffcc00;
+}
+
+.btnSomar{
+    color: #ffcc00;
+    background-color: #4d4d4d;
+    font-size: larger;
+    margin: 5px;
+    padding: 5px;
+}
+
+.btnSubtrair{
+    color: #ffcc00;
+    background-color: #4d4d4d;
+    font-size: larger;
+    margin: 5px;
+    padding: 5px;
+}
